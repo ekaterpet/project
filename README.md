@@ -1,1 +1,1 @@
-https://ekaterpet.github.io/project/
+https://ekaterpet.github.io/project/mainpage.html
