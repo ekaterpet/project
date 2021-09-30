@@ -9,8 +9,13 @@ body {
 .header {
     height: 100px;
     background-color: rgba(24, 206, 33, 0.788);
+    text-align: right;
     padding-right: 10px;
     
+}
+.footer {
+    height: 100px;
+    background-color: rgba(24, 206, 33, 0.788);
 }
 .menu-item {
     display: inline-block; 
