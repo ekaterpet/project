@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="style.css">
  <meta charset="UTF-8">
  <title>Медали гор</title>
 </head>
 <body>
-    <ul>
-        <li><a href="aboutus.html"> Обратная связь </a></li>
-        <li><a href="mainpage.html"> Главная </a></li>
-        <li><a href="catalog.html"> Каталог </a></li>
-    </ul>    
-    <hr>
-    <br>
-    <h1>Главная</h1>
-    <p>В нашем интернет-магазине вы сможете приобрести медали, хранящие воспоминания о местах, где
-        мечты стали реальностью!
-    </p>
-    <hr>
-    <h1>О нас:</h1>
-    <h2>Как всё начиналось:</h2>
-    <p>
-        Как зародилась идея продавать медали гор? Те, кто принимал участие в забегах, знают, как приятно 
+    <div class="container">
+        <header class="header">
+            <ul>
+                <li class="menu-item">
+                    <a class="menu-link" href="mainpage.html">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="catalog.html">Каталог</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="about.html">О нас</a>
+                </li>
+            </ul>
+        </header>
+        <hr>
+        <h1 class="main-header">Главная</h1>
+        <p class="description">
+            В нашем интернет-магазине вы сможете приобрести медали, хранящие воспоминания о местах, где
+            мечты стали реальностью!
+        </p>
+        <h1 class="main-header">Немного про нас</h1>
+        <h2 class="sub-header">Как всё начиналось:</h2>
+        <p class="description">
+            Как зародилась идея продавать медали гор? Те, кто принимал участие в забегах, знают, как приятно 
         получить на финише медаль. Так вот: получить медаль после покорения вершины тоже приятно. И как-то раз
         нам захотелось приобрести такую медаль. Но мы столкнулись с тем, что на рынке не было подходящего товара.
         И тогда мы решили сами разработать дизайн и запустить продажу.
-    </p>
-    <h2>Как дело обстоит сейчас:</h2>
-    <p>
-        На данный момент наша компания выпускает не только медали, посвящённые горным вершиным, но и медали,
+        </p>
+        <h2 class="sub-header">Как дело обстоит сейчас:</h2>
+        <p class="description">
+            На данный момент наша компания выпускает не только медали, посвящённые горным вершиным, но и медали,
         посвящённые знаменитым треккингам и сплавам по Карелии. Также мы приняли заказ на медаль Эверест от 
         русского альпинистского гида Александра Абрамова, который успешно поднял на Эверест уже не одну группу.
-    </p>
-    <img src="all medals.jpg" width="596" height="447">
-    <hr>
-    <p>Медали гор</p>       
-    <p>Контакты: +79123856798</p>
-    <p>Почта: mountainmedals@mail.ru</p>
+        </p>
+        <img src="all medals.jpg" width="596" height="447">
+        <hr>
+        <footer class="footer">
+            <ul>
+                <li class="menu-item">
+                    &copy;&nbsp;Медали гор
+                </li>
+                <li class="menu-item">
+                    <a href="mailto:email@mail.ru" class="menu-link">mountainmedals@mail.ru</a>
+                </li>
+                <li class="menu-item">
+                    <a href="tel:+79123856798" class="menu-link">+79123856798</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>

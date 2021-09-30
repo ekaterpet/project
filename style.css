@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    margin: 20px 20px;
+}
+.header {
+    height: 100px;
+    background-color: rgba(24, 206, 33, 0.788);
+    padding-right: 10px;
+    
+}
+.menu-item {
+    display: inline-block; 
+    margin-right: 20px;
+}
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+}
+
+.menu-link:hover {
+    color: red;
+}
+.main-header {
+    text-align: center;
+}
+.sub-header {
+    text-align: left;
+}
+.description {
+    text-align: left;
+}
