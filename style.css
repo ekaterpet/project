@@ -7,16 +7,14 @@ body {
     margin: 20px 20px;
 }
 .header {
-    height: 100px;
     background-color: rgba(24, 206, 33, 0.788);
     text-align: right;
-    border-radius: 5px;
-    
+    padding: 30px;
 }
 .footer {
-    height: 100px;
     background-color: rgba(24, 206, 33, 0.788);
     border-radius: 5px;
+    padding: 30px;
 }
 .menu-item {
     display: inline-block; 
@@ -39,4 +37,10 @@ body {
 }
 .description {
     text-align: left;
+}
+.item-img {
+    width: 596px;
+    height: 447;
+    display: block;
+    margin: 0 auto;
 }
