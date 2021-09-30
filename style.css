@@ -43,4 +43,8 @@ body {
     height: 447;
     display: block;
     margin: 0 auto;
+    
+}
+.item-img:hover {
+    outline: solid rgb(51, 47, 47) 3px;
 }
