@@ -43,8 +43,46 @@ body {
     height: 447;
     display: block;
     margin: 0 auto;
-    
 }
 .item-img:hover {
-    outline: solid rgb(51, 47, 47) 3px;
+    outline: solid rgba(24, 206, 33, 0.788);
+}
+.catalog-items{
+    display: inline;
+    margin-top: 5px;
+}
+.item-card{
+    display: inline-block;
+    height: 400x;
+    width: 300px;
+    top: 5px;
+    margin-right: 50px;
+    padding: 5px;
+}
+.item-card:hover {
+    outline: 5px solid rgba(24, 206, 33, 0.788);
+}
+.good-name{
+    text-align: center;
+
+}
+.small-img{
+    width: 298px;
+    height: 223px;
+    display: block;
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.link:hover{
+    color: rgba(24, 206, 33, 0.788);
+    font-size: 1.3em;
+}
+.description-1 {
+    text-align: center;
 }
