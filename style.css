@@ -29,8 +29,18 @@ body {
 .menu-link:hover {
     color: red;
 }
+.about-link{
+    text-decoration: none;
+    color: inherit;
+}
+.about-link:hover{
+    color: rgba(24, 206, 33, 0.788);
+}
 .main-header {
     text-align: center;
+}
+.about-text {
+    text-align: left;
 }
 .sub-header {
     text-align: left;
@@ -90,11 +100,14 @@ body {
 .product {
     display: flex;
 }
+.product:hover {
+    outline: 5px solid rgba(24, 206, 33, 0.788);
+}
 .product-description {
     display: inline-block;
     padding-top: 5px;
     padding-left: 50 px;
-    Margin left: 20 px;
+    margin-left: 20 px;
 }
 .buy:hover{
     background-color: rgba(24, 206, 33, 0.788);
