@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="style.css">
  <meta charset="UTF-8">
  <title>Медали гор</title>
 </head>
 <body>
-    <ul>
-        <li><a href="aboutus.html"> Обратная связь </a></li>
-        <li><a href="mainpage.html"> Главная </a></li>
-        <li><a href="catalog.html"> Каталог </a></li>
-    </ul>
-    <hr>
-    <br>
-    <h1>Каталог</h1>
-    <p>Краткий обзор наших медалей.</p>
-    <hr>
-    <h2>Эльбрус</h2>
-    <p>Цена: 1300 рублей</p>
-    <img src="elbrus.jpg" width="298" height="223">
-    <p>Медали западной и восточной вершины отличаются также,
-        как и сами вершины: одна многолюдная и популярная, другая 
-        дикая и таинственная.
-    </p>
-    <a href="elbrus.html"> Подробнее об Эльбрусе </a>
-    <br>
-    <h2>Арарат</h2>
-    <p>Цена: 1300 рублей</p>
-    <img src="ararat.jpg" width="298" height="223">
-    <p>Традиции и обычаи Востока сочетаются в этой медали с 
-        притяжением гор. 
-    </p>
-    <br>
-    <h2>Карельский сплав</h2>
-    <p>Цена: 1300 рублей</p>
-    <img src="raft.jpg" width="298" height="223">
-    <p>Бурные реки и непроходимые дороги - коротко о севере России. 
-    </p>
-    <hr>
-    <p>Медали гор</p>       
-    <p>Контакты: +79123856798</p>
-    <p>Почта: mountainmedals@mail.ru</p>
-
+    <div class="container">
+        <header class="header">
+            <ul>
+                <li class="menu-item">
+                    <a class="menu-link" href="mainpage.html">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="catalog.html">Каталог</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="aboutus.html">О нас</a>
+                </li>
+            </ul>
+        </header>
+        <hr>
+        <h1 class="main-header">Каталог</h1>
+        <p class="description">
+            Краткий обзор наших медалей. На этой страничке вы можете ознакомиться с нашим ассортиментом медалей гор и справов.
+        </p>
+        <div class="catalog-items">
+            <div class="item-card">
+                <h2 class="good-name">Эльбрус</h2>
+                <a><img class="small-img" src="elbrus.jpg"></a>
+                <br>
+                <p class="description-1">
+                    Медали западной и восточной вершины отличаются также,
+                    как и сами вершины.
+                </p>
+                <a href="elbrus.html" class="link">Подробнее</a>
+            </div>
+        <div class="catalog-items">
+            <div class="item-card">
+                <h2 class="good-name">Арарат</h2>
+                <a><img class="small-img" src="ararat.jpg"></a>
+                <br>
+                <p class="description-1">
+                    Традиции и обычаи Востока сочетаются в этой медали с 
+                    притяжением гор.
+                </p>
+                <a href="elbrus.html" class="link">Подробнее</a>
+        </div>
+        <div class="catalog-items">
+            <div class="item-card">
+                <h2 class="good-name">Карельский сплав</h2>
+                <a><img class="small-img" src="raft.jpg"></a>
+                <br>
+                <p class="description-1">
+                    Бурные реки и непроходимые дороги - коротко о севере России.
+                </p>
+                <a href="elbrus.html" class="link">Подробнее</a>
+        </div>
+        <hr>
+        <footer class="footer">
+            <ul>
+                <li class="menu-item">
+                    &copy;&nbsp;Медали гор
+                </li>
+                <li class="menu-item">
+                    <a href="mailto:email@mail.ru" class="menu-link">mountainmedals@mail.ru</a>
+                </li>
+                <li class="menu-item">
+                    <a href="tel:+79123856798" class="menu-link">+79123856798</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>

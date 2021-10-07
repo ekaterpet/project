@@ -2,44 +2,57 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
  <title>Обратная связь</title>
 </head>
 <body>
-    <ul>
-        <li><a href="aboutus.html"> Обратная связь </a></li>
-        <li><a href="mainpage.html"> Главная </a></li>
-        <li><a href="catalog.html"> Каталог </a></li>
-    </ul>
-    <hr>
-    <br>
-    <h1>Как с нами связаться</h1>
-    <p>
-        Звоните по телефону: +79123856798
-    </p>
-    <br>
-    <p>
-        Пишите на почту: mountainmedals@mail.ru 
-    </p>
-    <br>
-    <h1>Как оставить отзыв</h1>
-    <form action="#">
-        <legend>Расскажите о себе</legend>
-        Представьтесь <input type="text" name="name" placeholder="Ваши имя и фамилия"> <br>
-        Почта для обратной связи <input type="email" name="email" placeholder="Ваша почта"><br>
-        Оставьте ваш отзыв, пожелания или предложения <br>
-        <textarea name="review" id="" cols="68" rows="10"></textarea>
-        <br>
-        <input type="submit">
-        <input type="reset">
-    </form>
-    <br>
-    <h1>Где нас найти</h1>
-    <p>Наш адрес: Россия, Москва, Хамовники</p>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa15ed7d6e24921bd68368a2c206d50dfd1bdf1db8af50ba1580bbe352acac27e&amp;
-    width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
-    <hr>
-    <p>Медали гор</p>       
-    <p>Контакты: +79123856798</p>
-    <p>Почта: mountainmedals@mail.ru</p>
+    <div class="container">
+        <header class="header">
+            <ul>
+                <li class="menu-item">
+                    <a class="menu-link" href="mainpage.html">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="catalog.html">Каталог</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="aboutus.html">О нас</a>
+                </li>
+            </ul>
+        </header>
+        <hr>
+        <h2 class="sub-header">Как с нами связаться</h2>
+        <p class="about-text">Звоните по телефону: <a href="tel:+79123856798" class="about-link">+79123856798</a></p>
+        <p class="about-text">Пишите на почту: <a href="mailto:email@mail.ru" class="about-link">mountainmedals@mail.ru</a></p>
+        <h2 class="sub-header">Как оставить отзыв:</h2>
+        <form action="#">
+            <legend>Расскажите о себе</legend>
+            Представьтесь <input type="text" name="name" placeholder="Ваши имя и фамилия"> <br>
+            Почта для обратной связи <input type="email" name="email" placeholder="Ваша почта"><br>
+            Оставьте ваш отзыв, пожелания или предложения <br>
+            <textarea name="review" id="" cols="68" rows="10"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <h2 class="sub-header">Где нас найти:</h2>
+        <p class="about-text">Наш адрес: Россия, Москва, Хамовники</p>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa15ed7d6e24921bd68368a2c206d50dfd1bdf1db8af50ba1580bbe352acac27e&amp;
+        width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+        <hr>
+        <footer class="footer">
+            <ul>
+                <li class="menu-item">
+                    &copy;&nbsp;Медали гор
+                </li>
+                <li class="menu-item">
+                    <a href="mailto:email@mail.ru" class="menu-link">mountainmedals@mail.ru</a>
+                </li>
+                <li class="menu-item">
+                    <a href="tel:+79123856798" class="menu-link">+79123856798</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
