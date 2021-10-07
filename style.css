@@ -38,6 +38,9 @@ body {
 .description {
     text-align: left;
 }
+.description-1 {
+    text-align: center;
+}
 .item-img {
     width: 596px;
     height: 447;
@@ -59,6 +62,7 @@ body {
     margin-right: 50px;
     padding: 5px;
 }
+
 .item-card:hover {
     outline: 5px solid rgba(24, 206, 33, 0.788);
 }
@@ -83,6 +87,16 @@ body {
     color: rgba(24, 206, 33, 0.788);
     font-size: 1.3em;
 }
-.description-1 {
-    text-align: center;
+.product {
+    display: flex;
 }
+.product-description {
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 50 px;
+    Margin left: 20 px;
+}
+.buy:hover{
+    background-color: rgba(24, 206, 33, 0.788);
+}
+
